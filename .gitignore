@@ -1,0 +1,12 @@
+# Configuration locale (peut contenir GITHUB_PAT)
+*.env
+!runner.env.example
+
+# Si le runner est installé ici par erreur
+.runner
+.credentials
+.credentials_rsaparams
+.service
+.path
+_work/
+_diag/
